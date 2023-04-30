@@ -1,9 +1,20 @@
 apiVersion: v1
 entries:
+  mychart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-04-30T21:37:17.2299466+05:30"
+    description: A Helm chart for Kubernetes
+    digest: 74e773d7387b20ed6302093402267ca79a5b3c6440e5a75358b66a347ccdd300
+    name: mychart
+    type: application
+    urls:
+    - https://keerthan25.github.io/kl/mychart-0.1.0.tgz
+    version: 0.1.0
   teamapp:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-04-30T21:25:23.6288829+05:30"
+    created: "2023-04-30T21:37:17.2305346+05:30"
     description: A Helm chart for Kubernetes
     digest: d1f3ecdf9796532935c67566a29075a61c8253fa204dadd1575748e805d11afd
     name: teamapp
@@ -11,4 +22,4 @@ entries:
     urls:
     - https://keerthan25.github.io/kl/teamapp-0.1.0.tgz
     version: 0.1.0
-generated: "2023-04-30T21:25:23.6244487+05:30"
+generated: "2023-04-30T21:37:17.2269681+05:30"
